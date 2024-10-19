@@ -1,40 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# JoshTalks - Task Management App Assignment for Frontend Developer role
 
-## Getting Started
+### How to run the code:
 
-First, run the development server:
+1. Create a clone of this repo and go to the joshtalks-assignment directory:
+   `cd joshtalks-assignment`
+2. Now in cmd (or any terminal) run the following command to install dependency packages:
+   `npm install`
+3. Run the development server:
+   `npm run dev`
+4. Open the given link given in console in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Task Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] Add a new task: Each task should have a title, description, and priority (high, medium, low).
+- [x] Edit a task: Allow editing of the task title, description, and priority.
+- [x] Mark task as completed: Toggle between completed and pending states.
+- [x] Delete task: Remove tasks from the list.
+- [x] Sort tasks: Dynamically sort tasks by priority with high priority tasks at the top. Use any simple data structure
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Bonus (Optional but Appreciated):
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [x] Implement local storage to persist tasks between page reloads.
+- [x] Add a simple search bar to filter tasks by title or description.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Access the code at: [Github](https://github.com/Namchi7/JoshTalks-assignment)
