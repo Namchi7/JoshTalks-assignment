@@ -23,13 +23,52 @@
   text-shadow: 2px 2px 0 rgb(0, 164, 0);
 }
 
+.headerRight {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.searchDiv {
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.sortBtn {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.4rem 0.5rem;
+  transition: 100ms ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+  }
+}
+
 .createBtn {
   color: rgb(0, 164, 0);
   font-size: 0.9rem;
   font-weight: 500;
   border: 1px solid rgb(0, 164, 0);
   border-radius: 4px;
-  padding: 0.25rem 0.5rem;
+  padding: 0.4rem 0.5rem;
   transition: 100ms ease-in-out;
 
   &:hover {

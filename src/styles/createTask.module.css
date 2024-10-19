@@ -1,0 +1,153 @@
+.container {
+  position: absolute;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 11;
+}
+
+.formDiv {
+  width: 95%;
+  max-width: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.heading {
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+}
+
+.fieldGrp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.textInput {
+  width: 100%;
+  max-width: 100%;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  resize: none;
+}
+
+.fieldset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+
+.legend {
+  font-weight: 500;
+  margin-inline: 0.5rem;
+  padding-inline: 0.25rem;
+}
+
+.radioOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  padding: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.radioGrp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.radioLabel {
+  font-size: 0.95rem;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button {
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  transition: all 150ms ease-in-out;
+}
+
+.submitBtn {
+  order: 2;
+  width: 75%;
+  flex-shrink: 1;
+  color: black;
+  background-color: rgb(181, 204, 255);
+  border-color: blue;
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(75, 75, 255);
+    border-color: blue;
+  }
+}
+
+.cancelBtn {
+  order: 1;
+  width: 25%;
+  min-width: 4rem;
+  flex-shrink: 1;
+  color: white;
+  background-color: black;
+  border-color: black;
+
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+  }
+}
