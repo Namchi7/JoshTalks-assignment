@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.subContainer {
+  width: 100%;
+  max-width: 75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.75rem 1rem;
+}
+
+.logo {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 0 rgb(0, 164, 0);
+}
+
+.createBtn {
+  color: rgb(0, 164, 0);
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgb(0, 164, 0);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  transition: 100ms ease-in-out;
+
+  &:hover {
+    color: white;
+    background-color: rgb(0, 164, 0);
+    cursor: pointer;
+  }
+}
